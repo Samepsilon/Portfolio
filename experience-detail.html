@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Détails d'une expérience</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js"></script>
+    <script src="experience-detail.js"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">Portfolio Samuel Pasquier</a>
+                <div class="nav-links">
+                    <div class="nav-indicator"></div>
+                    <a href="index.html" class="nav-link" data-page="about">Home</a>
+                    <a href="experience.html" class="nav-link" data-page="experience">Expériences</a>
+                    <a href="contact.html" class="nav-link" data-page="contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="experience-detail">
+            <div class="container">
+                <a href="experience.html" class="back-link">← Retour</a>
+
+                <article class="detail-article">
+                    <div class="detail-header">
+                        <h1 class="detail-title" id="detailTitle"></h1>
+                        <p class="detail-company" id="detailCompany"></p>
+                        <p class="detail-period" id="detailPeriod"></p>
+                    </div>
+
+                    <div class="detail-content" id="detailContent"></div>
+
+                    <div class="detail-skills">
+                        <h3>Compétences devellopées</h3>
+                        <div class="skills-tags" id="detailSkills"></div>
+                    </div>
+
+                    <div class="detail-gallery">
+                        <h3>Images du Projet</h3>
+                        <div class="gallery-grid-detail" id="detailGallery"></div>
+                    </div>
+                </article>
+
+                <div class="detail-navigation">
+                    <a href="#" class="nav-prev" id="navPrev" style="display: none;">
+                        <p>← Précédent</p>
+                        <p id="prevTitle"></p>
+                    </a>
+                    <a href="#" class="nav-next" id="navNext" style="display: none;">
+                        <p>Suivant →</p>
+                        <p id="nextTitle"></p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+</body>
+</html>

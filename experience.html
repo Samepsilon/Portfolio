@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expériences</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="index.html" class="logo">Portfolio Samuel Pasquier</a>
+                <div class="nav-links">
+                    <div class="nav-indicator"></div>
+                    <a href="index.html" class="nav-link" data-page="about">Home</a>
+                    <a href="experience.html" class="nav-link" data-page="experience">Expériences</a>
+                    <a href="contact.html" class="nav-link" data-page="contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="experience-intro">
+            <div class="container">
+                <div class="experience-header">
+                    <h1 class="experience-title">
+                        Expériences Professionelle & Associative
+                    </h1>
+                    <p class="experience-subtitle">Plus de détails en cliquant sur chaque expériences:</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="experience-cards">
+            <div class="container">
+                <div class="cards-grid">
+                    <div class="experience-card" data-id="1">
+                        <h2 class="card-title">Stage de recherche</h2>
+                        <p class="card-company">AgrosParisTech - INRAE</p>
+                        <p class="card-period">Juin - Juillet 2025</p>
+                        <p class="card-description">
+                            Led the redesign and rebuilding of the main product dashboard, improving performance by 40% and user satisfaction scores by 25%. Mentored a team of 3 junior developers and established best practices for component architecture.
+                        </p>
+                        <div class="card-tags">
+                            <span class="tag">Iramuteq</span>
+                            <span class="tag">Python</span>
+                            <span class="tag">IA</span>
+                        </div>
+                    </div>
+
+                    <div class="experience-card" data-id="2">
+                        <h2 class="card-title">Présidence d'une Association</h2>
+                        <p class="card-company">ESAIP Innov'Lab</p>
+                        <p class="card-period">2023 - Présent</p>
+                        <p class="card-description">
+                            Built and maintained multiple full-stack applications using React and Node.js. Implemented real-time features using WebSocket technology and optimized database queries resulting in 50% faster API response times.
+                        </p>
+                        <div class="card-tags">
+                            <span class="tag">Full Stack</span>
+                            <span class="tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+    <script src="experience.js"></script>
+</body>
+</html>
