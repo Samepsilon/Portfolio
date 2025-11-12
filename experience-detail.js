@@ -10,9 +10,9 @@ const experiences = [
     company: "AgrosParisTech - INRAE",
     period: "Juin - Juillet 2025",
     highlights: ["Python", "IRaMuTeQ", "IA", "Recherche Scientifique"],
-    fullContent: `As a Senior Frontend Engineer at Tech Company, I took ownership of the complete redesign of our main product dashboard. The old dashboard was slow, unintuitive, and caused significant user friction.
+    fullContent: `Dans le cadre de mes étude, j'ai effectué un stage de 2 mois dans un laboratoire de recherche, dans le département de sociologie. J'y ai effectué divers mission en tant qu'assistant a la recherche
 
-Missions principales:
+    Missions principales:
   - Analyse lexicographique des contributions publiques (CNDP – façades maritimes) → Extraction, traitement et analyse de corpus textuels via Python et IRaMuTeQ.
   - Contribution à un outil pédagogique “Brevet IA” Relecture, correction et amélioration d’un site d’apprentissage sur l’intelligence artificielle.
   - Recherche et compilation de documents administratifs (MRAe) → Centralisation d’avis et de réponses environnementales pour un autre projet de recherche.
@@ -35,14 +35,12 @@ Compétences métiers
  - Capacité à adapter des méthodes issues de la recherche à un nouveau jeu de données.
 
 Bilan Final:
-- Built a reusable component library with TypeScript for type safety
 - Maîtrise renforcée de Python et découverte d’outils spécialisés (IRaMuTeQ, R).
 - Bonne compréhension du fonctionnement d’un laboratoire public et de ses contraintes.`,
 gallery: [
-  "stage-1.jpg",
-  "stage-2.jpg",
-  "stage-3.jpg",
-  "stage-4.jpg",
+  "DiagSim.png",
+  "Nuage.png",
+  "Diagramme_Alceste.png",
 ],
   },
   {
@@ -50,50 +48,33 @@ gallery: [
     title: "Présidence d'une Association",
     company: "ESAIP Innov'Lab",
     period: "2023 - 2025",
-    highlights: ["Full Stack", "PostgreSQL", "Real-time Features", "Performance Optimization"],
-    fullContent: `During my time at Startup, I wore many hats as a full-stack developer, building products from scratch and scaling existing ones to handle more users and data.
+    highlights: ["Animation", "Impression 3D", "Real-time Features", "Performance Optimization"],
+    fullContent: `Innov'Lab est une association Fab Lab au sein de l'ESAIP. Au sein de cette association, j'ai occupé les role de responsable de la communication, puis de Vice Président et finalement j'ai été élue Président durant l'anné 2025-2026.
 
-Key Achievements:
-- Architected and built 3 full-stack applications from ground up using React and Node.js
-- Implemented real-time collaboration features using WebSocket technology
-- Optimized database queries and implemented caching strategies, resulting in 50% faster API responses
-- Built and maintained CI/CD pipelines for automated testing and deployment
+Les projets que auquel j'ai participé! 
+- Projet Drone 
+- Recylotron 
+- Esaip Repair
+- Imprimante 3D
+- Borne d'Arcade
 
-Technical Stack:
-- Frontend: React, Redux, Tailwind CSS
-- Backend: Node.js, Express.js, PostgreSQL
-- Infrastructure: Docker, GitHub Actions, AWS
+Compétence technique:
+- impression 3D (modélisation, impression, entretient)
+- éléctronique
+- Robotique & drone  
 
-Key Projects:
-- Collaborative project management tool with real-time updates
-- Analytics dashboard processing millions of data points
-- Multi-tenant SaaS platform with role-based access control`,
-  },
-  {
-    id: 3,
-    title: "Junior Developer",
-    company: "Digital Agency",
-    period: "2020 - 2021",
-    highlights: ["Frontend Development", "CSS", "JavaScript", "Client Collaboration"],
-    fullContent: `As a Junior Developer at Digital Agency, I gained practical experience working with diverse clients and technologies. This role was instrumental in developing my problem-solving skills and understanding of client requirements.
+Compétence associative et relationelle:
+- animation de séance
+- Responsabilité
+- présidence  `,
+gallery: [
+  "DiagSim.png",
+  "Nuage.png",
+  "Diagramme_Alceste.png",
+],
 
-Key Achievements:
-- Delivered 15+ client projects on time and within budget
-- Maintained a 95%+ client satisfaction rating through attention to detail and communication
-- Built responsive websites following accessibility standards (WCAG 2.1)
-- Collaborated effectively with designers, backend developers, and project managers
+},
 
-Responsibilities:
-- Converted design mockups into pixel-perfect responsive implementations
-- Wrote clean, maintainable JavaScript and CSS
-- Implemented animations and interactive features
-- Participated in code reviews and followed best practices
-
-Technologies Used:
-- HTML5, CSS3, JavaScript (ES6+)
-- WordPress, Shopify
-- jQuery, Bootstrap`,
-  },
 ]
 
 // Load experience details
@@ -111,7 +92,7 @@ function loadExperienceDetails() {
   document.getElementById("detailContent").textContent = experience.fullContent
 
   // Skills
-  const skillsContainer = document.getElementById("detailSkills")
+  const skillsContainer = document.getElemDentById("detailSkills")
   skillsContainer.innerHTML = experience.highlights.map((skill) => `<span>${skill}</span>`).join("")
 
   // Gallery

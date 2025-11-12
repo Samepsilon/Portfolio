@@ -115,7 +115,7 @@ main {
 
 .hero-title {
   font-size: clamp(32px, 8vw, 56px);
-  font-family: fantasy;
+  font-family: OCR A Std, monospace;
   text-align: center;
   font-weight: 700;
   color: var(--foreground);
