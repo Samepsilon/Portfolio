@@ -92,7 +92,7 @@ function loadExperienceDetails() {
   document.getElementById("detailContent").textContent = experience.fullContent
 
   // Skills
-  const skillsContainer = document.getElemDentById("detailSkills")
+  const skillsContainer = document.getElementById("detailSkills")
   skillsContainer.innerHTML = experience.highlights.map((skill) => `<span>${skill}</span>`).join("")
 
   // Gallery
