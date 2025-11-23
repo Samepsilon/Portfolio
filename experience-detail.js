@@ -10,7 +10,7 @@ const experiences = [
     company: "AgrosParisTech - INRAE",
     period: "Juin - Juillet 2025",
     highlights: ["Python", "IRaMuTeQ", "IA", "Recherche Scientifique"],
-    fullContent: `Dans le cadre de mes étude, j'ai effectué un stage de 2 mois dans un laboratoire de recherche, dans le département de sociologie. J'y ai effectué divers mission en tant qu'assistant a la recherche
+    fullContent: `Dans le cadre de mes études, j'ai effectué un stage de 2 mois dans un laboratoire de recherche, dans le département de sociologie. J'y ai effectué diverses missions en tant qu'assistant à la recherche
 
     Missions principales:
   - Analyse lexicographique des contributions publiques (CNDP – façades maritimes) → Extraction, traitement et analyse de corpus textuels via Python et IRaMuTeQ.
@@ -48,8 +48,8 @@ gallery: [
     title: "Présidence d'une Association",
     company: "ESAIP Innov'Lab",
     period: "2023 - 2025",
-    highlights: ["Animation", "Impression 3D", "Real-time Features", "Performance Optimization"],
-    fullContent: `Innov'Lab est une association Fab Lab au sein de l'ESAIP. Au sein de cette association, j'ai occupé les role de responsable de la communication, puis de Vice Président et finalement j'ai été élue Président durant l'anné 2025-2026.
+    highlights: ["Animation", "Impression 3D", "éléctronique", "Présidence d'une Association"],
+    fullContent: `Innov'Lab est une association Fab Lab au sein de l'ESAIP. Au sein de cette association, j'ai occupé les rôles de responsable de la communication, puis de Vice-Président et finalement j'ai été élu Président durant l'année 2025-2026.
 
 Les projets que auquel j'ai participé! 
 - Projet Drone 
@@ -64,13 +64,14 @@ Compétence technique:
 - Robotique & drone  
 
 Compétence associative et relationelle:
-- animation de séance
+- Animation de séance
 - Responsabilité
-- présidence  `,
+- Présidence  `,
 gallery: [
-  "DiagSim.png",
-  "Nuage.png",
-  "Diagramme_Alceste.png",
+  "innovlab1.png",
+  "innovlab2.jpg",
+  "innovlab3.png", 
+  "innovlab4.png",
 ],
 
 },
